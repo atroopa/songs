@@ -1,7 +1,7 @@
 
 export const selectedSong = (song) => {
     return {
-        typeo: 'SELECTED_SONG',
+        typeo: 'SONG_SELECTED',
         payload: song
     };
 };
