@@ -1,11 +1,12 @@
 import React from 'react';
-import { selectedSong } from '../actions';
 import SongList from './SongList';
+import SongDetail from './SongDetail';
 
 const App = () => {
   return (
     <div className='text-2xl justify-center'>
         <SongList/>
+        <SongDetail/>
     </div>
   );
 };
